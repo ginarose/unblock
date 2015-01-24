@@ -1,0 +1,68 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	/*background-color: #bcbcbc;*/
+	background: #bcbcbc url("../assets/brickwall.png") repeat right top;
+}
+
+#header{
+	display: block;
+	margin: auto;
+	width: 50%;
+	background: rgba(255,255,255,.5);
+	padding: 20px;
+}
+
+#body{
+	display: block;
+	margin: auto;
+	width: 50%;
+	background: rgba(109,0,0,.6);
+	padding: 20px;
+}
+
+#inspoInput{
+	display: block;
+	margin: auto;
+	padding-bottom: 20px; 
+	line-height: 4em;
+}
+
+#word{
+	display: block;
+	margin: auto;
+	width: 50%;
+	background: rgba(186,0,0,.6);
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-weight: 300;
+	font-size: 4em;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2{
+	text-align: center;
+	display: block;
+	margin: auto;
+	font-size: 1.3em;
+}
+
+h3{
+	text-align: center;
+	display: block;
+	margin: auto;
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+button{
+	margin: auto;
+}
+
+form{
+	text-align: center;
+}
