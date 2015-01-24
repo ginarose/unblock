@@ -16,7 +16,7 @@ body{
 	display: block;
 	margin: auto;
 	width: 50%;
-	background: rgba(109,0,0,.6);
+	background: rgba(129,50,62,.6);
 	padding: 20px;
 }
 
@@ -27,13 +27,21 @@ body{
 	line-height: 4em;
 }
 
+.button-inspoInput{
+    background: #340F15;
+}
+
 #word{
 	display: block;
 	margin: auto;
 	width: 50%;
-	background: rgba(186,0,0,.6);
+	background: rgba(129,50,0,.6);
 	padding: 20px;
 	text-align: center;
+}
+
+.button-word{
+	background: #CD5D16;
 }
 
 h1{
@@ -57,10 +65,19 @@ h3{
 	margin: auto;
 	text-transform: uppercase;
 	font-size: 1.4em;
+	color: #fff;
 }
 
-button{
+h4{
+
+	color: #fff;
+}
+
+.pure-button{
 	margin: auto;
+	color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 form{

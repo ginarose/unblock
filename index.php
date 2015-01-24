@@ -27,13 +27,13 @@
 		    	<option value="noun">Noun</option>
 		    	<option value="verb">Verb</option>
 		    </select>
-		    <button type="submit" class="pure-button pure-u-1 button-xlarge" id="inspireMe"> Inspire Me!</button>
+		    <button type="submit" class="pure-button button-inspoInput pure-u-1-2 button-xlarge" id="inspireMe"> Inspire Me!</button>
 		 </form>
 	</div>
 	<div id="word">
-		<h3>Bananas</h3>
-		<h4>Definition</h4>
-		<button type="submit" class="pure-button pure-u-1-3 button-xlarge" id="startOver"><i class="fa fa-arrow-left "></i> Start over </button> <button type="submit" class="pure-button pure-u-1-3 button-xlarge" id="tryAnother"><i class="fa fa-refresh "></i> Try another </button>
+		<h3 id="wordName">Bananas</h3>
+		<h4 id="wordDefinition">Definition</h4>
+		<button type="submit" class="pure-button button-word pure-u-1-3 button-xlarge" id="startOver"><i class="fa fa-arrow-left "></i> Start over </button> <button type="submit" class="pure-button button-word pure-u-1-3 button-xlarge" id="tryAnother"><i class="fa fa-refresh "></i> Try another </button>
 	</div>
 </body>
 <script src="js/findinspiration.js"></script>
